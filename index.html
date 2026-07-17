@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mecha Chameleon | Download the Tool</title>
+  <meta
+    name="description"
+    content="Mecha Chameleon Tool is a stealth-focused mod built around camouflage, scanners, and hide-and-seek tension. Download the latest release."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Manrope:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body
+  data-github-owner=""
+  data-github-repo=""
+  data-project-name="Mecha Chameleon"
+>
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand">
+          <span class="brand-mark">MC</span>
+          <span class="brand-name">Mecha Chameleon</span>
+        </div>
+        <a class="top-link" id="repo-link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <p class="eyebrow reveal-text reveal-1">CHAMELEON TOOL // RELEASE READY</p>
+          <h1 class="hero-title reveal-text reveal-2">
+            <span>Dominate in every Game.</span>
+            <span>With this tool</span>
+          </h1>
+          <p class="lead reveal-text reveal-3">
+            Mecha Chameleon turns the hunt into a game of nerves ESP, Fly, Radar, X-ray
+            radar pressure, scanning systems, and stealth-driven hide-and-seek combat.
+          </p>
+
+          <div class="cta-row">
+            <a class="button button-primary" id="download-link" href="#" target="_blank" rel="noreferrer">
+              Download Latest Release
+            </a>
+            <a class="button button-secondary" id="releases-link" href="#" target="_blank" rel="noreferrer">
+              View All Releases
+            </a>
+          </div>
+
+          <ul class="hero-points">
+            <li class="reveal-text reveal-4">ESP</li>
+            <li class="reveal-text reveal-5">FLY</li>
+            <li class="reveal-text reveal-6">RADAR</li>
+          </ul>
+        </section>
+
+        <aside class="hero-card">
+          <div class="status-card">
+            <span class="status-label reveal-text reveal-2">Current Package</span>
+            <strong class="reveal-text reveal-3" id="release-name">Looking up release...</strong>
+            <p class="reveal-text reveal-4" id="release-copy">
+              This page will try to automatically find the latest published release asset.
+            </p>
+            <dl class="status-grid">
+              <div>
+                <dt>Format</dt>
+                <dd id="release-format">asset / zip</dd>
+              </div>
+              <div>
+                <dt>Source</dt>
+                <dd>GitHub Releases</dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd id="release-status">pending</dd>
+              </div>
+              <div>
+                <dt>Install Time</dt>
+                <dd>2-3 minutes</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow reveal-text">GAMEPLAY CORE</p>
+          <h2 class="section-title reveal-text">What the Mod Adds</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-index">01</span>
+            <h3>Adaptive Camouflage</h3>
+            <p>
+              Visibility is constantly evaluated so stealth becomes a real playstyle
+              instead of a cosmetic layer on top of direct combat.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-index">02</span>
+            <h3>Radar and Sensors</h3>
+            <p>
+              Contacts, scanners, and detection zones create steady pressure and force
+              every movement to feel deliberate.
+            </p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-index">03</span>
+            <h3>Hide-and-Seek Tension</h3>
+            <p>
+              The mod builds pursuit-driven encounters where mistakes are readable and
+              smart concealment can genuinely decide the outcome of a round.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section install-section">
+        <div class="section-heading">
+          <p class="eyebrow reveal-text">QUICK START</p>
+          <h2 class="section-title reveal-text">Install in Minutes</h2>
+        </div>
+        <div class="install-grid">
+          <div class="install-card">
+            <span class="step">1</span>
+            <h3>Download the Release</h3>
+            <p>Use the download button above. If a packaged asset exists, it will open directly.</p>
+          </div>
+          <div class="install-card">
+            <span class="step">2</span>
+            <h3>Extract the Archive</h3>
+            <p>Place the mod files into the correct game or project folder based on your build layout.</p>
+          </div>
+          <div class="install-card">
+            <span class="step">3</span>
+            <h3>Launch and Test</h3>
+            <p>Jump in and test camouflage behavior, radar systems, and the pursuit gameplay loop.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section callout-section">
+        <div class="callout-card">
+          <div>
+            <p class="eyebrow reveal-text">READY FOR DEPLOY</p>
+            <h2 class="section-title reveal-text">This Site Is Ready for GitHub Pages</h2>
+            <p>
+              Enable publishing from the branch root and the page can go live without
+              a build step or extra dependencies.
+            </p>
+          </div>
+          <a class="button button-primary" id="footer-download-link" href="#" target="_blank" rel="noreferrer">
+            Open Latest Release
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      var body = document.body;
+      var explicitOwner = body.dataset.githubOwner;
+      var explicitRepo = body.dataset.githubRepo;
+      var projectName = body.dataset.projectName || "Project";
+      var hostParts = window.location.hostname.split(".");
+      var pathParts = window.location.pathname.split("/").filter(Boolean);
+
+      var owner = explicitOwner;
+      var repo = explicitRepo;
+
+      if (!owner && hostParts.length >= 3 && hostParts[1] === "github" && hostParts[2] === "io") {
+        owner = hostParts[0];
+      }
+
+      if (!repo && pathParts.length > 0) {
+        repo = pathParts[0];
+      }
+
+      var releasesLink = document.getElementById("releases-link");
+      var downloadLink = document.getElementById("download-link");
+      var footerDownloadLink = document.getElementById("footer-download-link");
+      var repoLink = document.getElementById("repo-link");
+      var releaseName = document.getElementById("release-name");
+      var releaseCopy = document.getElementById("release-copy");
+      var releaseStatus = document.getElementById("release-status");
+      var releaseFormat = document.getElementById("release-format");
+
+      function setLinks(baseUrl, downloadUrl) {
+        releasesLink.href = baseUrl + "/releases";
+        downloadLink.href = downloadUrl;
+        footerDownloadLink.href = downloadUrl;
+        repoLink.href = baseUrl;
+      }
+
+      if (!owner || !repo) {
+        releaseName.textContent = "Set owner and repo";
+        releaseCopy.textContent = "Fill in data-github-owner and data-github-repo in index.html so the site can automatically load releases.";
+        releaseStatus.textContent = "setup required";
+        releaseFormat.textContent = "manual setup";
+        return;
+      }
+
+      var baseUrl = "https://github.com/" + owner + "/" + repo;
+      var latestReleasePage = baseUrl + "/releases/latest";
+      setLinks(baseUrl, latestReleasePage);
+
+      fetch("https://api.github.com/repos/" + owner + "/" + repo + "/releases/latest")
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Release lookup failed");
+          }
+          return response.json();
+        })
+        .then(function (release) {
+          var asset = release.assets && release.assets.length ? release.assets[0] : null;
+          releaseName.textContent = release.name || release.tag_name || projectName;
+          releaseStatus.textContent = "ready";
+
+          if (asset) {
+            downloadLink.href = asset.browser_download_url;
+            footerDownloadLink.href = asset.browser_download_url;
+            downloadLink.textContent = "Download " + asset.name;
+            footerDownloadLink.textContent = "Download " + asset.name;
+            releaseFormat.textContent = asset.name.split(".").pop() || "asset";
+            releaseCopy.textContent = "A published asset was found. The button now points straight to the file.";
+          } else {
+            downloadLink.href = latestReleasePage;
+            footerDownloadLink.href = latestReleasePage;
+            downloadLink.textContent = "Open Latest Release";
+            footerDownloadLink.textContent = "Open Latest Release";
+            releaseFormat.textContent = "release page";
+            releaseCopy.textContent = "This release has no attached assets, so the button goes to the release page.";
+          }
+        })
+        .catch(function () {
+          releaseName.textContent = projectName;
+          releaseStatus.textContent = "fallback";
+          releaseFormat.textContent = "release page";
+          releaseCopy.textContent = "The GitHub API is unavailable or no releases exist yet. The button still leads to the releases page.";
+        });
+    })();
+  </script>
+</body>
+</html>
